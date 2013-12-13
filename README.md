@@ -67,7 +67,7 @@ XXX don't enable ipv4 forwarding yet.
 - on east vpn server:
      export PUBIP=165.225.137.251
      export PRIVIP=10.112.5.32
-# this is the pub ip of the other vpn server:
+   # this is the pub ip of the other vpn server:
        export DSTIP=37.153.104.15   
      export MYKEY=e1e721333c1c6c19891beb9a03eb509f54644ee0
 
@@ -76,7 +76,7 @@ XXX don't enable ipv4 forwarding yet.
      export PUBIP=37.153.104.15
      export PRIVIP=10.224.6.146 
    
-# this is the pub ip of the other vpn server:  
+   # this is the pub ip of the other vpn server:  
        export DSTIP=165.225.137.251
      export MYKEY=e1e721333c1c6c19891beb9a03eb509f54644ee0
 
