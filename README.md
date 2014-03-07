@@ -86,9 +86,9 @@ echo "add esp spi 1000 src $PUBIP  dst $DSTIP auth_alg sha1 authkey $MYKEY encr_
 
 echo "add esp spi 1000 src $DSTIP  dst $PUBIP auth_alg sha1 authkey $MYKEY encr_alg blowfish encrkey $MYKEY" >> /etc/inet/secret/ipseckeys
 
-chmod 600 /etc/inet/secret/ipseckeys 
-ipseckey flush
-ipseckey -f /etc/inet/secret/ipseckeys
+ -  chmod 600 /etc/inet/secret/ipseckeys 
+ -  ipseckey flush
+ -  ipseckey -f /etc/inet/secret/ipseckeys
 
 
 - on each server:
