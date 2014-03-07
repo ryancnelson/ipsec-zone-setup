@@ -1,3 +1,8 @@
+*** NOTE *** this seems to be incomplete.   Please don't spend hours pounding on this until I test it again.  Sorry for the inconvenience!
+--ryan
+
+
+
 ipsec-zone-setup
 ================
 ```
